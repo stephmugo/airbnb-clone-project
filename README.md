@@ -103,3 +103,20 @@ Review System: Allows users to post and view property reviews, enhancing transpa
 Data Optimization: Implements indexing and caching to improve data retrieval speed and reduce database load.
 
 API Documentation: Provides clear REST and GraphQL API documentation, simplifying integration for developers.
+
+## API Security
+Authentication: Uses token-based authentication (e.g., JWT) to verify user identity, protecting endpoints from unauthorized access.
+
+Authorization: Implements role-based access control to ensure users only access resources they are permitted to, safeguarding sensitive data.
+
+Rate Limiting: Restricts the number of API requests per user to prevent abuse and maintain system stability.
+
+Data Protection: Encrypts sensitive data (e.g., user credentials, payment details) to prevent breaches and ensure compliance.
+
+Importance:
+
+User Data: Securing personal information builds trust and complies with privacy regulations.
+
+Payments: Protecting transactions prevents fraud and ensures financial integrity.
+
+System Integrity: Preventing unauthorized access and abuse maintains platform reliability.
