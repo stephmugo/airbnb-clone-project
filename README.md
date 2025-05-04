@@ -36,3 +36,55 @@ Redis: Supports caching and session management to improve performance.
 Docker: Ensures consistent development and deployment environments through containerization.
 
 CI/CD Pipelines: Automates testing and deployment to streamline development and ensure code quality.
+
+## Database Design
+Users
+
+id: Unique identifier for each user.
+email: User’s email for authentication and communication.
+name: User’s full name for profile display.
+password: Hashed password for secure authentication.
+created_at: Timestamp for user registration.
+
+
+Properties:
+
+id: Unique identifier for each property.
+host_id: Foreign key linking to the user who owns the property.
+title: Name or title of the property.
+location: Address or coordinates of the property.
+price_per_night: Cost of renting the property per night.
+
+
+Bookings:
+
+id: Unique identifier for each booking.
+property_id: Foreign key linking to the booked property.
+user_id: Foreign key linking to the user making the booking.
+check_in_date: Start date of the booking.
+check_out_date: End date of the booking.
+
+
+Reviews:
+
+id: Unique identifier for each review.
+property_id: Foreign key linking to the reviewed property.
+user_id: Foreign key linking to the user posting the review.
+rating: Numerical rating (e.g., 1-5 stars).
+comment: Text description of the review.
+
+
+Payments:
+
+id: Unique identifier for each payment.
+booking_id: Foreign key linking to the associated booking.
+amount: Payment amount.
+status: Payment status (e.g., pending, completed).
+created_at: Timestamp of the payment.
+
+## Relationships
+A User can own multiple Properties (one-to-many).
+A Property can have multiple Bookings and Reviews (one-to-many).
+A Booking belongs to one User and one Property (many-to-one).
+A Review is associated with one User and one Property (many-to-one).
+A Payment is linked to one Booking (one-to-one).
