@@ -88,3 +88,18 @@ A Property can have multiple Bookings and Reviews (one-to-many).
 A Booking belongs to one User and one Property (many-to-one).
 A Review is associated with one User and one Property (many-to-one).
 A Payment is linked to one Booking (one-to-one).
+
+## Feature Breakdown
+User Management: Allows users to register, authenticate, and manage profiles, ensuring secure access to the platform.
+
+Property Management: Enables hosts to create, update, and delete property listings, making it easy to manage rental offerings.
+
+Booking System: Facilitates property reservations, including check-in/check-out details, providing a seamless booking experience.
+
+Payment Processing: Handles secure payment transactions for bookings, ensuring trust and reliability.
+
+Review System: Allows users to post and view property reviews, enhancing transparency and user confidence.
+
+Data Optimization: Implements indexing and caching to improve data retrieval speed and reduce database load.
+
+API Documentation: Provides clear REST and GraphQL API documentation, simplifying integration for developers.
