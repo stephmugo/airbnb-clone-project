@@ -120,3 +120,7 @@ User Data: Securing personal information builds trust and complies with privacy 
 Payments: Protecting transactions prevents fraud and ensures financial integrity.
 
 System Integrity: Preventing unauthorized access and abuse maintains platform reliability.
+
+## CI/CD Pipeline
+
+CI/CD (Continuous Integration/Continuous Deployment) pipelines automate the testing, building, and deployment of code changes, ensuring rapid and reliable delivery of updates. They are crucial for maintaining code quality, catching bugs early, and enabling seamless scaling. Tools like GitHub Actions can run automated tests, while Docker ensures consistent environments for deployment.
