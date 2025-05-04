@@ -19,3 +19,20 @@ Database Administrator: Oversees database design, indexing, and optimization to 
 DevOps Engineer: Manages deployment, monitoring, and scaling of backend services, ensuring high availability and performance.
 
 QA Engineer: Tests backend functionalities to ensure they meet quality standards and perform reliably under various conditions.
+
+## Tech Stack
+Django: A Python web framework used for building secure and scalable RESTful APIs.
+
+Django REST Framework: Provides tools for creating and managing RESTful APIs with support for CRUD operations.
+
+PostgreSQL: A relational database for storing user, property, booking, and payment data.
+
+GraphQL: Enables flexible and efficient data querying, reducing over- or under-fetching of data.
+
+Celery: Handles asynchronous tasks like sending notifications or processing payments.
+
+Redis: Supports caching and session management to improve performance.
+
+Docker: Ensures consistent development and deployment environments through containerization.
+
+CI/CD Pipelines: Automates testing and deployment to streamline development and ensure code quality.
