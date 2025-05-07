@@ -3,13 +3,6 @@
 ## Overview
 The Airbnb Clone project aims to replicate the core functionalities of Airbnb, providing a robust backend for managing user interactions, property listings, bookings, payments, and reviews. The project is designed to be scalable, secure, and efficient, leveraging modern technologies to ensure a seamless experience for users and hosts.
 
-## Tech Stack
-Django
-PostgreSQL
-GraphQL
-Redis
-Docker
-Celery
 
 ## Team Roles
 Backend Developer: Designs and implements API endpoints, database schemas, and business logic to support core functionalities like user management, bookings, and payments.
@@ -20,7 +13,7 @@ DevOps Engineer: Manages deployment, monitoring, and scaling of backend services
 
 QA Engineer: Tests backend functionalities to ensure they meet quality standards and perform reliably under various conditions.
 
-## Tech Stack
+## Technology Stack
 Django: A Python web framework used for building secure and scalable RESTful APIs.
 
 Django REST Framework: Provides tools for creating and managing RESTful APIs with support for CRUD operations.
